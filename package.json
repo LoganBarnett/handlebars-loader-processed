@@ -1,0 +1,23 @@
+{
+  "name": "handlebars-loader-processed",
+  "version": "1.0.0",
+  "description": "reproduce issue where handlebars-loader seems to get handlebars itself processed by other loaders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --profile --display-modules"
+  },
+  "keywords": [
+    "handlebars",
+    "handlebars-loader",
+    "webpack"
+  ],
+  "author": "Logan Barnett (logustus@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "handlebars": "^4.0.6",
+    "handlebars-loader": "^1.4.0",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1"
+  }
+}
